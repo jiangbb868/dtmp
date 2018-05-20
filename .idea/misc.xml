@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="sourceMapEmbedSources" />
+    <option name="sourceMapPrefix" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-sso/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="56848446-8264-4da5-9ef0-9dcc307069eb" />
+      <option name="name" value="56848446-8264-4da5-9ef0-9dcc307069eb" />
+      <option name="url" value="http://maven.oschina.net/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="553dac07-d8c3-4130-8826-5aaeb18891d9" />
+      <option name="name" value="553dac07-d8c3-4130-8826-5aaeb18891d9" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="75a20017-681e-4f5b-8c1d-7e4f35c894ae" />
+      <option name="name" value="75a20017-681e-4f5b-8c1d-7e4f35c894ae" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="a1829b44-6d30-4530-b8d2-3cc5232da71f" />
+      <option name="name" value="a1829b44-6d30-4530-b8d2-3cc5232da71f" />
+      <option name="url" value="http://mvnrepository.com/artifact" />
+    </remote-repository>
+  </component>
+</project>

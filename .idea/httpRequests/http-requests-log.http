@@ -1,0 +1,340 @@
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T051532.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T020248.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T020225.500.json
+
+###
+
+GET http://localhost:9001/sso/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015946.500.json
+
+###
+
+GET http://localhost:9001/sso/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015901.500.json
+
+###
+
+GET http://localhost:9001/sso/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015812.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb11&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015747.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb11&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015744.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb11&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015703.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb11&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015652.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123455
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015639.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123455
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015635.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T015558.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T120008.200.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T114405.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T114402.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T114227.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103620.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103619.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103616.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103412.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103305.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T103159.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-20T102225.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-19T105350.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-19T075448.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-19T053526.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-18T105601.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=jiangb&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-18T103431.500.json
+
+###
+
+GET http://localhost:9001/sso/login?username=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-18T103346.200.json
+
+###
+
+GET http://localhost:9001/sso/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-13T123134.200.json
+
+###
+
+GET http://localhost:9001/sso/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-13T123132.200.json
+
+###
+
+POST http://localhost:9001/sso/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-13T120223.200.json
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-13T115948.200.json
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T103456.200.txt
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T103336.500.json
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T093231.500.json
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123&userName=jiangb&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T074007.500.json
+
+###
+
+POST http://localhost:9001/login?userName=zhangsan&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T014845.500.json
+
+###
+
+POST http://localhost:9001?userName=zhangsan&password=123/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T014813.404.json
+
+###
+
+POST http://localhost:9001/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-12T014146.200.txt
+
+###
+

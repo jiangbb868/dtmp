@@ -1,0 +1,93 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso-service 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso-service ---
+[INFO] com.alkaid:dtmp-sso-service:jar:1.0-SNAPSHOT
+[INFO] +- com.alkaid:dtmp-sso-api:jar:1.0-SNAPSHOT:compile
+[INFO] |  +- com.alkaid:dtmp-sso-dao:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  \- org.mybatis:mybatis:jar:3.4.2:compile
+[INFO] |  \- com.alkaid:dtmp-common:jar:1.0-SNAPSHOT:compile
+[INFO] |     +- org.springframework:spring-jdbc:jar:4.3.6.RELEASE:compile
+[INFO] |     |  +- org.springframework:spring-beans:jar:4.3.6.RELEASE:compile
+[INFO] |     |  +- org.springframework:spring-core:jar:4.3.6.RELEASE:compile
+[INFO] |     |  \- org.springframework:spring-tx:jar:4.3.6.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context-support:jar:4.3.6.RELEASE:compile
+[INFO] |     |  \- org.springframework:spring-context:jar:4.3.6.RELEASE:compile
+[INFO] |     |     \- org.springframework:spring-expression:jar:4.3.6.RELEASE:compile
+[INFO] |     +- com.github.pagehelper:pagehelper:jar:5.0.1:compile
+[INFO] |     |  \- com.github.jsqlparser:jsqlparser:jar:0.9.5:compile
+[INFO] |     +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.2.0:compile
+[INFO] |     |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.3.RELEASE:compile
+[INFO] |     |  |  \- org.apache.tomcat:tomcat-jdbc:jar:8.5.6:compile
+[INFO] |     |  |     \- org.apache.tomcat:tomcat-juli:jar:8.5.6:compile
+[INFO] |     |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.2.0:compile
+[INFO] |     |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] |     +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter:jar:1.5.1.RELEASE:compile
+[INFO] |     |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.1.RELEASE:compile
+[INFO] |     |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.1.RELEASE:compile
+[INFO] |     |  |  +- ch.qos.logback:logback-classic:jar:1.1.9:compile
+[INFO] |     |  |  |  \- ch.qos.logback:logback-core:jar:1.1.9:compile
+[INFO] |     |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.22:compile
+[INFO] |     |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.22:compile
+[INFO] |     |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO] |     +- org.springframework.boot:spring-boot:jar:1.5.1.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter-web:jar:1.5.1.RELEASE:compile
+[INFO] |     |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.1.RELEASE:compile
+[INFO] |     |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.11:compile
+[INFO] |     |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.11:compile
+[INFO] |     |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.11:compile
+[INFO] |     |  +- org.hibernate:hibernate-validator:jar:5.3.4.Final:compile
+[INFO] |     |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |     |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO] |     |  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+[INFO] |     |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.6:compile
+[INFO] |     |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO] |     |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.6:compile
+[INFO] |     |  +- org.springframework:spring-web:jar:4.3.6.RELEASE:compile
+[INFO] |     |  \- org.springframework:spring-webmvc:jar:4.3.6.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-configuration-processor:jar:1.5.1.RELEASE:compile
+[INFO] |     |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:compile
+[INFO] |     +- cn.binux:spring-boot-starter-dubbox:jar:0.0.1-SNAPSHOT:compile
+[INFO] |     +- com.alibaba:dubbo:jar:2.8.4:compile
+[INFO] |     |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |     |  +- io.netty:netty:jar:3.7.0.Final:compile
+[INFO] |     |  +- log4j:log4j:jar:1.2.16:compile
+[INFO] |     |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |     |  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+[INFO] |     |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+[INFO] |     |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] |     |  +- commons-codec:commons-codec:jar:1.6:compile
+[INFO] |     |  +- commons-pool:commons-pool:jar:1.6:compile
+[INFO] |     |  +- org.apache.curator:curator-framework:jar:2.5.0:compile
+[INFO] |     |  +- org.apache.curator:curator-client:jar:2.5.0:compile
+[INFO] |     |  \- com.google.guava:guava:jar:16.0.1:compile
+[INFO] |     +- com.esotericsoftware.kryo:kryo:jar:2.24.0:compile
+[INFO] |     |  +- com.esotericsoftware.minlog:minlog:jar:1.2:compile
+[INFO] |     |  \- org.objenesis:objenesis:jar:2.1:compile
+[INFO] |     +- de.javakaffee:kryo-serializers:jar:0.26:compile
+[INFO] |     +- de.ruedigermoeller:fst:jar:1.55:compile
+[INFO] |     +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |     +- org.apache.zookeeper:zookeeper:jar:3.4.7:compile
+[INFO] |     |  \- jline:jline:jar:0.9.94:compile
+[INFO] |     +- com.101tec:zkclient:jar:0.7:compile
+[INFO] |     +- redis.clients:jedis:jar:2.9.0:compile
+[INFO] |     |  \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO] |     +- org.springframework.data:spring-data-redis:jar:1.7.5.RELEASE:compile
+[INFO] |     |  +- org.springframework.data:spring-data-keyvalue:jar:1.1.5.RELEASE:compile
+[INFO] |     |  |  \- org.springframework.data:spring-data-commons:jar:1.12.5.RELEASE:compile
+[INFO] |     |  +- org.springframework:spring-oxm:jar:4.2.8.RELEASE:compile
+[INFO] |     |  +- org.springframework:spring-aop:jar:4.2.8.RELEASE:compile
+[INFO] |     |  \- org.slf4j:jcl-over-slf4j:jar:1.7.21:compile
+[INFO] |     \- com.alibaba:fastjson:jar:1.2.39:compile
+[INFO] \- com.alkaid:dtmp-sso-common:jar:1.0-SNAPSHOT:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.050 s
+[INFO] Finished at: 2018-05-18T08:13:34+08:00
+[INFO] Final Memory: 22M/212M
+[INFO] ------------------------------------------------------------------------

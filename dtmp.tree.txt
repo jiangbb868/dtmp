@@ -1,0 +1,265 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] dtmp
+[INFO] dtmp-sso
+[INFO] dtmp-sso-dao
+[INFO] dtmp-common
+[INFO] dtmp-sso-api
+[INFO] dtmp-sso-service
+[INFO] dtmp-sso-web
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp ---
+[INFO] com.alkaid:dtmp:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso ---
+[INFO] com.alkaid:dtmp-sso:pom:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso-dao 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso-dao ---
+[INFO] com.alkaid:dtmp-sso-dao:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-common 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-common ---
+[INFO] com.alkaid:dtmp-common:jar:1.0-SNAPSHOT
+[INFO] +- org.springframework:spring-jdbc:jar:4.3.14.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+[INFO] |  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:4.3.14.RELEASE:compile
+[INFO] +- org.springframework:spring-context-support:jar:4.3.14.RELEASE:compile
+[INFO] |  \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+[INFO] +- org.mybatis:mybatis:jar:3.4.2:compile
+[INFO] +- com.github.pagehelper:pagehelper:jar:5.0.1:compile
+[INFO] |  \- com.github.jsqlparser:jsqlparser:jar:0.9.5:compile
+[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.2.0:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.3.RELEASE:compile
+[INFO] |  |  \- org.apache.tomcat:tomcat-jdbc:jar:8.5.6:compile
+[INFO] |  |     \- org.apache.tomcat:tomcat-juli:jar:8.5.6:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.2.0:compile
+[INFO] |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO] +- org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+[INFO] |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO] |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO] +- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27:compile
+[INFO] |  |  |  \- org.apache.tomcat:tomcat-annotations-api:jar:8.5.27:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27:compile
+[INFO] |  +- org.hibernate:hibernate-validator:jar:5.3.6.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+[INFO] |  +- org.springframework:spring-web:jar:4.3.14.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:4.3.14.RELEASE:compile
+[INFO] +- com.alibaba:dubbo:jar:2.8.4:compile
+[INFO] |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  +- io.netty:netty:jar:3.7.0.Final:compile
+[INFO] |  +- log4j:log4j:jar:1.2.16:compile
+[INFO] |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+[INFO] |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] |  +- commons-codec:commons-codec:jar:1.6:compile
+[INFO] |  +- commons-pool:commons-pool:jar:1.6:compile
+[INFO] |  +- org.apache.curator:curator-framework:jar:2.5.0:compile
+[INFO] |  +- org.apache.curator:curator-client:jar:2.5.0:compile
+[INFO] |  \- com.google.guava:guava:jar:16.0.1:compile
+[INFO] +- org.springframework.social:spring-social-core:jar:1.1.0.RELEASE:compile
+[INFO] +- org.springframework.social:spring-social-config:jar:1.1.0.RELEASE:compile
+[INFO] |  \- org.springframework.social:spring-social-web:jar:1.1.0.RELEASE:compile
+[INFO] |     \- javax.inject:javax.inject:jar:1:compile
+[INFO] \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso-api 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso-api ---
+[INFO] com.alkaid:dtmp-sso-api:jar:1.0-SNAPSHOT
+[INFO] +- com.alkaid:dtmp-sso-dao:jar:1.0-SNAPSHOT:compile
+[INFO] \- com.alkaid:dtmp-common:jar:1.0-SNAPSHOT:compile
+[INFO]    +- org.springframework:spring-jdbc:jar:4.3.14.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-tx:jar:4.3.14.RELEASE:compile
+[INFO]    +- org.springframework:spring-context-support:jar:4.3.14.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+[INFO]    |     +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+[INFO]    |     \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+[INFO]    +- org.mybatis:mybatis:jar:3.4.2:compile
+[INFO]    +- com.github.pagehelper:pagehelper:jar:5.0.1:compile
+[INFO]    |  \- com.github.jsqlparser:jsqlparser:jar:0.9.5:compile
+[INFO]    +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.2.0:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.3.RELEASE:compile
+[INFO]    |  |  \- org.apache.tomcat:tomcat-jdbc:jar:8.5.6:compile
+[INFO]    |  |     \- org.apache.tomcat:tomcat-juli:jar:8.5.6:compile
+[INFO]    |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.2.0:compile
+[INFO]    |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO]    +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+[INFO]    |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO]    |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO]    |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO]    |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO]    |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO]    +- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE:compile
+[INFO]    |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27:compile
+[INFO]    |  |  |  \- org.apache.tomcat:tomcat-annotations-api:jar:8.5.27:compile
+[INFO]    |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27:compile
+[INFO]    |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27:compile
+[INFO]    |  +- org.hibernate:hibernate-validator:jar:5.3.6.Final:compile
+[INFO]    |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]    |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO]    |  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+[INFO]    |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+[INFO]    |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO]    |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+[INFO]    |  +- org.springframework:spring-web:jar:4.3.14.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-webmvc:jar:4.3.14.RELEASE:compile
+[INFO]    +- com.alibaba:dubbo:jar:2.8.4:compile
+[INFO]    |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO]    |  +- io.netty:netty:jar:3.7.0.Final:compile
+[INFO]    |  +- log4j:log4j:jar:1.2.16:compile
+[INFO]    |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO]    |  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+[INFO]    |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+[INFO]    |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    |  +- commons-codec:commons-codec:jar:1.6:compile
+[INFO]    |  +- commons-pool:commons-pool:jar:1.6:compile
+[INFO]    |  +- org.apache.curator:curator-framework:jar:2.5.0:compile
+[INFO]    |  +- org.apache.curator:curator-client:jar:2.5.0:compile
+[INFO]    |  \- com.google.guava:guava:jar:16.0.1:compile
+[INFO]    +- org.springframework.social:spring-social-core:jar:1.1.0.RELEASE:compile
+[INFO]    +- org.springframework.social:spring-social-config:jar:1.1.0.RELEASE:compile
+[INFO]    |  \- org.springframework.social:spring-social-web:jar:1.1.0.RELEASE:compile
+[INFO]    |     \- javax.inject:javax.inject:jar:1:compile
+[INFO]    \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso-service 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso-service ---
+[INFO] com.alkaid:dtmp-sso-service:jar:1.0-SNAPSHOT
+[INFO] \- com.alkaid:dtmp-sso-api:jar:1.0-SNAPSHOT:compile
+[INFO]    +- com.alkaid:dtmp-sso-dao:jar:1.0-SNAPSHOT:compile
+[INFO]    \- com.alkaid:dtmp-common:jar:1.0-SNAPSHOT:compile
+[INFO]       +- org.springframework:spring-jdbc:jar:4.3.14.RELEASE:compile
+[INFO]       |  +- org.springframework:spring-beans:jar:4.3.14.RELEASE:compile
+[INFO]       |  +- org.springframework:spring-core:jar:4.3.14.RELEASE:compile
+[INFO]       |  \- org.springframework:spring-tx:jar:4.3.14.RELEASE:compile
+[INFO]       +- org.springframework:spring-context-support:jar:4.3.14.RELEASE:compile
+[INFO]       |  \- org.springframework:spring-context:jar:4.3.14.RELEASE:compile
+[INFO]       |     +- org.springframework:spring-aop:jar:4.3.14.RELEASE:compile
+[INFO]       |     \- org.springframework:spring-expression:jar:4.3.14.RELEASE:compile
+[INFO]       +- org.mybatis:mybatis:jar:3.4.2:compile
+[INFO]       +- com.github.pagehelper:pagehelper:jar:5.0.1:compile
+[INFO]       |  \- com.github.jsqlparser:jsqlparser:jar:0.9.5:compile
+[INFO]       +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.2.0:compile
+[INFO]       |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.4.3.RELEASE:compile
+[INFO]       |  |  \- org.apache.tomcat:tomcat-jdbc:jar:8.5.6:compile
+[INFO]       |  |     \- org.apache.tomcat:tomcat-juli:jar:8.5.6:compile
+[INFO]       |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.2.0:compile
+[INFO]       |  \- org.mybatis:mybatis-spring:jar:1.3.1:compile
+[INFO]       +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO]       +- org.springframework.boot:spring-boot-starter:jar:1.5.10.RELEASE:compile
+[INFO]       |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.10.RELEASE:compile
+[INFO]       |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.10.RELEASE:compile
+[INFO]       |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO]       |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO]       |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO]       |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]       |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO]       |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO]       +- org.springframework.boot:spring-boot:jar:1.5.10.RELEASE:compile
+[INFO]       +- org.springframework.boot:spring-boot-starter-web:jar:1.5.10.RELEASE:compile
+[INFO]       |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.10.RELEASE:compile
+[INFO]       |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.27:compile
+[INFO]       |  |  |  \- org.apache.tomcat:tomcat-annotations-api:jar:8.5.27:compile
+[INFO]       |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.27:compile
+[INFO]       |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.27:compile
+[INFO]       |  +- org.hibernate:hibernate-validator:jar:5.3.6.Final:compile
+[INFO]       |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO]       |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:compile
+[INFO]       |  |  \- com.fasterxml:classmate:jar:1.3.1:compile
+[INFO]       |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.10:compile
+[INFO]       |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO]       |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.10:compile
+[INFO]       |  +- org.springframework:spring-web:jar:4.3.14.RELEASE:compile
+[INFO]       |  \- org.springframework:spring-webmvc:jar:4.3.14.RELEASE:compile
+[INFO]       +- com.alibaba:dubbo:jar:2.8.4:compile
+[INFO]       |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO]       |  +- io.netty:netty:jar:3.7.0.Final:compile
+[INFO]       |  +- log4j:log4j:jar:1.2.16:compile
+[INFO]       |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO]       |  +- org.apache.httpcomponents:httpclient:jar:4.2.1:compile
+[INFO]       |  +- org.apache.httpcomponents:httpcore:jar:4.2.1:compile
+[INFO]       |  +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]       |  +- commons-codec:commons-codec:jar:1.6:compile
+[INFO]       |  +- commons-pool:commons-pool:jar:1.6:compile
+[INFO]       |  +- org.apache.curator:curator-framework:jar:2.5.0:compile
+[INFO]       |  +- org.apache.curator:curator-client:jar:2.5.0:compile
+[INFO]       |  \- com.google.guava:guava:jar:16.0.1:compile
+[INFO]       +- org.springframework.social:spring-social-core:jar:1.1.0.RELEASE:compile
+[INFO]       +- org.springframework.social:spring-social-config:jar:1.1.0.RELEASE:compile
+[INFO]       |  \- org.springframework.social:spring-social-web:jar:1.1.0.RELEASE:compile
+[INFO]       |     \- javax.inject:javax.inject:jar:1:compile
+[INFO]       \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building dtmp-sso-web 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dtmp-sso-web ---
+[INFO] com.alkaid:dtmp-sso-web:jar:1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] dtmp ............................................... SUCCESS [  1.828 s]
+[INFO] dtmp-sso ........................................... SUCCESS [  0.007 s]
+[INFO] dtmp-sso-dao ....................................... SUCCESS [  0.054 s]
+[INFO] dtmp-common ........................................ SUCCESS [  1.447 s]
+[INFO] dtmp-sso-api ....................................... SUCCESS [  0.201 s]
+[INFO] dtmp-sso-service ................................... SUCCESS [  0.123 s]
+[INFO] dtmp-sso-web ....................................... SUCCESS [  0.005 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.485 s
+[INFO] Finished at: 2018-05-11T15:58:56+08:00
+[INFO] Final Memory: 20M/218M
+[INFO] ------------------------------------------------------------------------

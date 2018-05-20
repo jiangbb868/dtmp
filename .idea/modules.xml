@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dtmp.iml" filepath="$PROJECT_DIR$/dtmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-common/dtmp-common.iml" filepath="$PROJECT_DIR$/dtmp-common/dtmp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/dtmp-redis-service.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/dtmp-redis-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/dtmp-sso-common.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/dtmp-sso-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/dtmp-sso-dao.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/dtmp-sso-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/dtmp-sso-service.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/dtmp-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml" filepath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml" />
+    </modules>
+  </component>
+</project>

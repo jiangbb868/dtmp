@@ -1,0 +1,8 @@
+{
+  "timestamp": 1526795941326,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.RuntimeException",
+  "message": "Value for username cannot be null",
+  "path": "/sso/login"
+}
