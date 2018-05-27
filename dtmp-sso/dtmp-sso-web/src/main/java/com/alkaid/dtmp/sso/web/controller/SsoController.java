@@ -6,6 +6,7 @@ import com.alkaid.dtmp.common.pojo.DtmpResult;
 import com.alkaid.dtmp.sso.api.UserService;
 import com.alkaid.dtmp.sso.dao.model.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,6 +18,7 @@ public class SsoController {
     @Reference(version = DtmpConstants.DTMP_SSO_VERSION)
     private UserService userService;
 
+    // @CrossOrigin(origins = "http://localhost:9000")
     @RequestMapping(value="/login", method = RequestMethod.GET)
     @ResponseBody
     public DtmpResult login (User user) {

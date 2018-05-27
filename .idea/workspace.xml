@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9954e64c-0547-4823-a91a-0fab4f0e99e0" name="Default" comment="" />
+    <list default="true" id="9954e64c-0547-4823-a91a-0fab4f0e99e0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/target/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-common/target/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/dtmp-redis-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/dtmp-redis-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/dtmp-redis-boot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/dtmp-redis-boot-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/dtmp-redis-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/dtmp-redis-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/dtmp-redis-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/dtmp-redis-service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/dtmp-sso-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/dtmp-sso-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/dtmp-sso-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/dtmp-sso-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/dtmp-sso-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/dtmp-sso-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/dtmp-sso-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/dtmp-sso-service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/classes/com/alkaid/dtmp/sso/web/controller/SsoController.class" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/classes/com/alkaid/dtmp/sso/web/controller/SsoController.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/dtmp-sso-web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/dtmp-sso-web-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/maven-archiver/pom.properties" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dtmp-sso/target/" />
@@ -42,22 +71,18 @@
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="23" />
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/src/main/java/com/alkaid/dtmp/redis/boot/config/RedisConfiguration.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,9 +90,12 @@
       <file leaf-file-name="DtmpSsoWebApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <folding>
+                <element signature="e#983#1216#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +103,8 @@
       <file leaf-file-name="SsoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -85,43 +113,19 @@
       <file leaf-file-name="DtmpSsoServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="104">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceOptimizerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/src/main/java/com/alkaid/dtmp/redis/common/serial/ServiceOptimizerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,8 +151,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="1216">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="98" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -203,6 +217,9 @@
       <replace>dtmp</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -222,10 +239,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/base/BaseService.java" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/base/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/serial/SerializationOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/serial/SsoOptimizerImpl.java" />
@@ -239,10 +254,8 @@
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/FastJsonConvert.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/dtmp-common/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/test/java/DtmpSsoServiceTester.java" />
         <option value="$PROJECT_DIR$/project-datamodel/dtmp.sql" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/RedisUtil.java" />
@@ -268,11 +281,15 @@
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/impl/JedisClientSingle.java" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" />
       </list>
     </option>
   </component>
@@ -388,7 +405,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -410,6 +427,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -425,7 +443,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,249 +455,7 @@
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-redis-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
@@ -719,17 +496,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
@@ -800,22 +566,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="project-datamodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -832,6 +588,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="last_opened_file_path" value="G:/SourceCode/java/codegroup4/gs-rest-service-cors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1380,12 +1137,17 @@
       <workItem from="1526741170835" duration="1311000" />
       <workItem from="1526779883846" duration="12507000" />
       <workItem from="1526807021562" duration="6002000" />
-      <workItem from="1526828241173" duration="75000" />
+      <workItem from="1526828241173" duration="665000" />
+      <workItem from="1526863495000" duration="4131000" />
+      <workItem from="1526999637829" duration="1266000" />
+      <workItem from="1527132189670" duration="4287000" />
+      <workItem from="1527174368815" duration="735000" />
+      <workItem from="1527334370799" duration="3947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147748000" />
+    <option name="totallyTimeSpent" value="162704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1397,38 +1159,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="7" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5960912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13141994" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25226587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49022803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387622" sideWeight="0.49697885" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5960912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48859936" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23413897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2703583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387622" sideWeight="0.49697885" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42345276" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1449,8 +1210,14 @@
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="63" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1478,30 +1245,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/impl/JedisClientCluster.java" />
     <entry file="file://$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1550,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3078">
           <caret line="162" column="18" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1558,14 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1681,18 +1415,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/configure/RedisAutoConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Connection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -1714,7 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,17 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1755,15 +1468,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="142">
+          <caret line="125" column="56" lean-forward="true" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/src/main/java/com/alkaid/dtmp/redis/boot/config/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1392#1393#0" expanded="false" />
+            <element signature="e#1432#1433#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1783,49 +1516,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1216">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="98" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/src/main/java/com/alkaid/dtmp/redis/boot/config/RedisConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="24" column="62" lean-forward="false" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="e#983#1216#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
