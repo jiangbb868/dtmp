@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954e64c-0547-4823-a91a-0fab4f0e99e0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,101 +46,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DtmpSsoWebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
+      <file leaf-file-name="dtmp-attendance-web.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtmp-attendance-api.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/pom.xml">
+      <file leaf-file-name="dtmp-redis-common.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtmp-sso-web.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtmp-sso-api.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-attendance.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml">
+      <file leaf-file-name="dtmp-attendance-common.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="10" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
+      <file leaf-file-name="dtmp-attendance-service.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="473">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
+      <file leaf-file-name="dtmp-attendance-dao.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="473">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml">
+      <file leaf-file-name="dtmp-redis-boot.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
+      <file leaf-file-name="dtmp-redis-api.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SsoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DtmpSsoServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -220,11 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/base/BaseService.java" />
-        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/base/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java" />
-        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/serial/SerializationOptimizerImpl.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/serial/SsoOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/serial/SsoOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/src/main/java/com/alkaid/dtmp/sso/common/serial/SsoOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/pom.xml" />
@@ -271,6 +263,11 @@
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" />
       </list>
     </option>
   </component>
@@ -427,6 +424,7 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -434,21 +432,10 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1020,12 +1007,13 @@
       <workItem from="1527132189670" duration="4287000" />
       <workItem from="1527174368815" duration="735000" />
       <workItem from="1527334370799" duration="3947000" />
-      <workItem from="1527678778172" duration="347000" />
+      <workItem from="1527678778172" duration="702000" />
+      <workItem from="1527679496149" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163051000" />
+    <option name="totallyTimeSpent" value="163911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1047,13 +1035,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13141994" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48859936" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18277946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1061,8 +1049,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49022803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1123,99 +1111,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dtmp-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="162" column="18" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.1.RELEASE/spring-boot-starter-data-redis-1.5.1.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-starter-data-redis/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/1.5.1.RELEASE/spring-boot-starter-data-redis-1.5.1.RELEASE.jar!/META-INF/maven/org.springframework.boot/spring-boot-starter-data-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/config/RedisNamespaceHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4066">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/listener/RedisMessageListenerContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/config/RedisCollectionParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/config/RedisListenerContainerParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.1.RELEASE/spring-boot-1.5.1.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="368" column="46" lean-forward="false" selection-start-line="368" selection-start-column="46" selection-end-line="368" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.1.RELEASE/spring-boot-autoconfigure-1.5.1.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="5610" column="33" lean-forward="false" selection-start-line="5610" selection-start-column="33" selection-end-line="5610" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/DefaultRedisCachePrefix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCachePrefix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1425">
@@ -1351,7 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="98" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,39 +1304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1464,6 +1324,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-common/dtmp-common.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
