@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dtmp.iml" filepath="$PROJECT_DIR$/dtmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" filepath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtmp-common/dtmp-common.iml" filepath="$PROJECT_DIR$/dtmp-common/dtmp-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml" filepath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml" />

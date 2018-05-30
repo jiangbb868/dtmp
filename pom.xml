@@ -25,6 +25,7 @@
         <module>dtmp-sso</module>
         <module>dtmp-common</module>
         <module>dtmp-redis</module>
+        <module>dtmp-attendance</module>
     </modules>
 
     <dependencies>
