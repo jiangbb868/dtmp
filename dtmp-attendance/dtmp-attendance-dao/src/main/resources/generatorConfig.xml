@@ -27,26 +27,26 @@
                 <property name="forceBigDecimals" value="false" />
             </javaTypeResolver> -->
         <!--生成Model类存放位置 -->
-        <javaModelGenerator targetPackage="com.alkaid.dtmp.sso.dao.model"
-                            targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-sso\dtmp-sso-dao\src\main\java">
+        <javaModelGenerator targetPackage="com.alkaid.dtmp.attendance.dao.model"
+                            targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-dao\src\main\java">
             <!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->
             <property name="enableSubPackages" value="false" />
             <!-- 是否针对string类型的字段在set的时候进行trim调用 -->
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
         <!--生成映射文件存放位置 -->
-        <sqlMapGenerator targetPackage="com.alkaid.dtmp.sso.service.mapper"
-                         targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-sso\dtmp-sso-service\src\main\java">
+        <sqlMapGenerator targetPackage="com.alkaid.dtmp.attendance.service.mapper"
+                         targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-service\src\main\java">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
         <!--生成Dao类存放位置 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.alkaid.dtmp.sso.dao.mapper" targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-sso\dtmp-sso-dao\src\main\java">
+                             targetPackage="com.alkaid.dtmp.attendance.dao.mapper" targetProject="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-dao\src\main\java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
         <!-- tableName:用于自动生成代码的数据库表；domainObjectName:对应于数据库表的javaBean类名 -->
-        <table schema="general" tableName="TBL_USER" domainObjectName="User">
+        <table schema="general" tableName="TBL_WORK_OVERTIME" domainObjectName="WorkOvertime">
             <!--domain字段的命名规则，false:默认为驼峰命名 true:按数据库真实命名  -->
             <property name="useActualColumnNames" value="false"/>
             <!-- 忽略列，不生成bean 字段 -->

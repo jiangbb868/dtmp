@@ -8,7 +8,7 @@ CREATE DATABASE dtmp;
 -- ----------------------------
 DROP TABLE IF EXISTS `tbl_user`;
 CREATE TABLE `tbl_user` (
-  `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '编号',
+  `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户编号',
   `username` varchar(20) NOT NULL COMMENT '帐号',
   `password` varchar(32) NOT NULL COMMENT '密码MD5(密码+盐)',
   `salt` varchar(32) DEFAULT NULL COMMENT '盐',
@@ -27,3 +27,15 @@ CREATE TABLE `tbl_user` (
 -- ----------------------------
 INSERT INTO `tbl_user` VALUES ('1', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '66f1b370c660445a8657bf8bf1794486', 'alkaid', '', '', 'jiangbb868@sina.com', '1', '0', '1');
 INSERT INTO `tbl_user` VALUES ('2', 'jiangb', 'e10adc3949ba59abbe56e057f20f883e', 'd2d0d03310444ad388a8b290b0fe8564', '姜兵', '', '', 'jiangbb868@sina.com', '1', '0', '1493394720495');
+
+DROP TABLE IF EXISTS `tbl_work_overtime`;
+CREATE TABLE `tbl_work_overtime` (
+  `workovertime_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '加班编号',
+  `date` date NOT NULL COMMENT '加班日期',
+  `user_id` int(10) unsigned NOT NULL COMMENT '用户编号',
+  `start_time` time NOT NULL COMMENT '开始时间',
+  `stop_time` time NOT NULL COMMENT '结束时间',
+  `reason` varchar(256) NOT NULL COMMENT '加班事由',
+  PRIMARY KEY (`workovertime_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COMMENT='加班';
+

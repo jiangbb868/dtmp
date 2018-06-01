@@ -11,5 +11,16 @@
 
     <artifactId>dtmp-attendance-api</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.alkaid</groupId>
+            <artifactId>dtmp-attendance-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alkaid</groupId>
+            <artifactId>dtmp-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

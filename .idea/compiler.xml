@@ -6,6 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dtmp-attendance-api" />
+        <module name="dtmp-attendance-common" />
+        <module name="dtmp-attendance-dao" />
+        <module name="dtmp-attendance-service" />
+        <module name="dtmp-attendance-web" />
         <module name="dtmp-common" />
         <module name="dtmp-redis-api" />
         <module name="dtmp-redis-boot" />
@@ -20,6 +25,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dtmp" target="1.8" />
+      <module name="dtmp-attendance" target="1.8" />
+      <module name="dtmp-attendance-api" target="1.8" />
+      <module name="dtmp-attendance-common" target="1.5" />
+      <module name="dtmp-attendance-dao" target="1.8" />
+      <module name="dtmp-attendance-service" target="1.8" />
+      <module name="dtmp-attendance-web" target="1.5" />
       <module name="dtmp-common" target="1.8" />
       <module name="dtmp-redis" target="1.8" />
       <module name="dtmp-redis-api" target="1.8" />

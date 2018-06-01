@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954e64c-0547-4823-a91a-0fab4f0e99e0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" />
-      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
       <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml" />
       <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" />
-      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" />
-      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml" />
+      <change beforePath="$PROJECT_DIR$/project-datamodel/dtmp.sql" afterPath="$PROJECT_DIR$/project-datamodel/dtmp.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +31,10 @@
     <ignored path="$PROJECT_DIR$/dtmp-redis/target/" />
     <ignored path="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/" />
     <ignored path="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/" />
+    <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/target/" />
+    <ignored path="$PROJECT_DIR$/dtmp-attendance/target/" />
+    <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/" />
+    <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,101 +56,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dtmp-attendance-web.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml">
+      <file leaf-file-name="WorkOvertimeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-attendance-api.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-redis-common.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-sso-web.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/src/main/java/com/alkaid/dtmp/sso/api/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-sso-api.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="171">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dtmp-attendance-common.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml">
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dtmp-attendance-service.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dtmp-attendance-dao.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dtmp-redis-boot.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dtmp-redis-api.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -160,11 +172,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mon</find>
-      <find>common</find>
-      <find>fastjson</find>
-      <find>spring.social.version</find>
-      <find>spring.data.version</find>
       <find>spring.hateoas.version</find>
       <find>spring.data.gemfire.version</find>
       <find>social</find>
@@ -190,6 +197,11 @@
       <find>springboot.version</find>
       <find>-redis</find>
       <find>max-active</find>
+      <find>sso</find>
+      <find>-overwrite</find>
+      <find>mybatis-generator-core-1.3.6.jar</find>
+      <find>mybatis-generator-core</find>
+      <find>java</find>
     </findStrings>
     <replaceStrings>
       <replace>dtmp</replace>
@@ -217,20 +229,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/serial/SsoOptimizerImpl.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/src/main/java/com/alkaid/dtmp/sso/common/serial/SsoOptimizerImpl.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/src/main/java/com/alkaid/dtmp/sso/api/UserService.java" />
-        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/FastJsonConvert.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/dtmp-common/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/test/java/DtmpSsoServiceTester.java" />
-        <option value="$PROJECT_DIR$/project-datamodel/dtmp.sql" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/RedisUtil.java" />
         <option value="$PROJECT_DIR$/dtmp-redis/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/JedisClient.java" />
@@ -268,6 +272,14 @@
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml" />
+        <option value="$PROJECT_DIR$/project-datamodel/dtmp.sql" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/AttendanceService.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -423,8 +435,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,10 +442,275 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="project-datamodel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,6 +738,7 @@
       <recent name="com.alkaid.dtmp.sso.common.serial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-dao\src\main\resources" />
       <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-sso\dtmp-sso-service\src\main\resources" />
     </key>
   </component>
@@ -1008,12 +1284,14 @@
       <workItem from="1527174368815" duration="735000" />
       <workItem from="1527334370799" duration="3947000" />
       <workItem from="1527678778172" duration="702000" />
-      <workItem from="1527679496149" duration="505000" />
+      <workItem from="1527679496149" duration="769000" />
+      <workItem from="1527842848153" duration="2023000" />
+      <workItem from="1527865187632" duration="2885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163911000" />
+    <option name="totallyTimeSpent" value="169083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,30 +1304,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13141994" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49022803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5960912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13141994" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48859936" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48859936" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30589125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49022803" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1058,7 +1338,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387622" sideWeight="0.49697885" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42345276" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1111,52 +1390,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.0.RELEASE/spring-data-redis-1.8.0.RELEASE.jar!/org/springframework/data/redis/cache/RedisCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1824">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/src/main/java/com/alkaid/dtmp/redis/boot/config/JedisClient.java" />
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/configure/RedisAutoConfiguration.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Connection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/util/CacheUtils.java" />
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/impl/JedisClient.java" />
     <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/configure/RedisConfig.java" />
     <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/src/main/java/com/alkaid/dtmp/redis/boot/client/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1211,11 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1392#1393#0" expanded="false" />
-            <element signature="e#1432#1433#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,22 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1525518231390" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1525518231390" expanded="false" signature="167:268" ph="..." />
-            <marker date="1525518231390" expanded="true" signature="548:635" ph="{...}" />
-            <marker date="1525518231390" expanded="false" signature="669:680" ph=" { " />
-            <marker date="1525518231390" expanded="false" signature="723:729" ph=" }" />
-            <marker date="1525518231390" expanded="true" signature="774:785" ph=" { " />
-            <marker date="1525518231390" expanded="true" signature="828:834" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="98" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,35 +1513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,15 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,7 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="532">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding />
         </state>
@@ -1410,7 +1581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="532">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding />
         </state>
@@ -1427,7 +1598,7 @@
     <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1459,15 +1630,137 @@
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
+          <caret line="10" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-datamodel/dtmp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/AttendanceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/mapper/WorkOvertimeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/src/main/java/com/alkaid/dtmp/sso/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertimeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/mapper/WorkOvertimeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
         </state>
       </provider>
