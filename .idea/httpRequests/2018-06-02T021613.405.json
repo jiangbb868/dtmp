@@ -1,0 +1,8 @@
+{
+  "timestamp": 1527920173776,
+  "status": 405,
+  "error": "Method Not Allowed",
+  "exception": "org.springframework.web.HttpRequestMethodNotSupportedException",
+  "message": "Request method 'GET' not supported",
+  "path": "/work/overtime/delete"
+}

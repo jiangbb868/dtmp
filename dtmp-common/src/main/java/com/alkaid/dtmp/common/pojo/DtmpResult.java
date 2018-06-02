@@ -30,6 +30,12 @@ public class DtmpResult implements BaseResult, Serializable {
         this.data = data;
     }
 
+    public DtmpResult() {
+        this.status = 200;
+        this.message = "success";
+        this.data = null;
+    }
+
     public Integer getStatus() {
         return status;
     }

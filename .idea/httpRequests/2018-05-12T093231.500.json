@@ -1,8 +1,0 @@
-{
-  "timestamp": 1526131951378,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "com.alibaba.dubbo.rpc.RpcException",
-  "message": "Failed to invoke the method getUserName in the service com.alkaid.dtmp.sso.api.UserService. Tried 3 times of the providers [192.168.127.1:20882] (1/1) from the registry 192.168.43.150:2181 on the consumer 192.168.127.1 using the dubbo version 2.8.4. Last error is: Invoke remote method timeout. method: getUserName, provider: dubbo://192.168.127.1:20882/com.alkaid.dtmp.sso.api.UserService?accepts=1000&anyhost=true&application=dtmp-sso-web&check=false&dubbo=2.8.4&generic=false&interface=com.alkaid.dtmp.sso.api.UserService&methods=getUserName&module=dtmp-sso-web&optimizer=com.alkaid.dtmp.common.serial.SerializationOptimizerImpl&organization=dubbox&owner=alkaid&pid=3184&revision=1.0.0&serialization=kryo&side=consumer&timestamp=1526131697031&version=1.0.0, cause: Waiting server-side response timeout. start time: 2018-05-12 21:32:30.281, end time: 2018-05-12 21:32:31.283, client elapsed: 0 ms, server elapsed: 1002 ms, timeout: 1000 ms, request: Request [id=6, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getUserName, parameterTypes=[class com.alkaid.dtmp.sso.dao.model.User], arguments=[com.alkaid.dtmp.sso.dao.model.User@13f516f0], attachments={path=com.alkaid.dtmp.sso.api.UserService, interface=com.alkaid.dtmp.sso.api.UserService, version=1.0.0}]], channel: /192.168.127.1:50479 -> /192.168.127.1:20882",
-  "path": "/login"
-}

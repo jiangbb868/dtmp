@@ -30,7 +30,7 @@ public class WorkOvertimeServiceImpl extends BaseServiceImpl<WorkOvertimeMapper,
     @Override
     public DtmpResult setWorkOvertime(WorkOvertime workOvertime) {
         if (workOvertime == null) {
-            return new DtmpResult(400, "error", "数据为空");
+            return new DtmpResult(400, "error", "数据为空！");
         }
         int count = workOvertimeMapper.insert(workOvertime);
         DtmpResult result = new DtmpResult(200, "success", null);
@@ -54,9 +54,9 @@ public class WorkOvertimeServiceImpl extends BaseServiceImpl<WorkOvertimeMapper,
     public DtmpResult deleteWorkOvertime(int workOvertimeId) {
         int count = workOvertimeMapper.deleteByPrimaryKey(workOvertimeId);
         if (count == 1) {
-            return new DtmpResult(200, "secuess", "删除加班失败！");
+            return new DtmpResult(200, "secuess", "删除加班成功！");
         } else {
-            return new DtmpResult(400, "error", "删除加班成功！");
+            return new DtmpResult(400, "error", "删除加班失败！");
         }
     }
 }

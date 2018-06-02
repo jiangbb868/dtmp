@@ -27,7 +27,7 @@
       <module name="dtmp" target="1.8" />
       <module name="dtmp-attendance" target="1.8" />
       <module name="dtmp-attendance-api" target="1.8" />
-      <module name="dtmp-attendance-common" target="1.5" />
+      <module name="dtmp-attendance-common" target="1.8" />
       <module name="dtmp-attendance-dao" target="1.8" />
       <module name="dtmp-attendance-service" target="1.8" />
       <module name="dtmp-attendance-web" target="1.8" />

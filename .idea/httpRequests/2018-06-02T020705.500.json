@@ -1,0 +1,8 @@
+{
+  "timestamp": 1527919625506,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "com.alibaba.dubbo.rpc.RpcException",
+  "message": "Failed to invoke the method getWorkOvertime in the service com.alkaid.dtmp.attendance.api.WorkOvertimeService. Tried 3 times of the providers [192.168.127.1:20882] (1/1) from the registry 192.168.43.150:2181 on the consumer 192.168.127.1 using the dubbo version 2.8.4. Last error is: Invoke remote method timeout. method: getWorkOvertime, provider: dubbo://192.168.127.1:20882/com.alkaid.dtmp.attendance.api.WorkOvertimeService?accepts=1000&anyhost=true&application=dtmp-attendance-web&check=false&dubbo=2.8.4&generic=false&interface=com.alkaid.dtmp.attendance.api.WorkOvertimeService&methods=getWorkOvertime,deleteWorkOvertime,setWorkOvertime&module=dtmp-attendance-web&optimizer=com.alkaid.dtmp.attendance.common.serial.AttendanceOptimizerImpl&organization=dubbox&owner=alkaid&pid=7480&revision=1.0.0&serialization=kryo&side=consumer&timestamp=1527919593468&version=1.0.0, cause: Waiting server-side response timeout. start time: 2018-06-02 14:07:04.421, end time: 2018-06-02 14:07:05.433, client elapsed: 1 ms, server elapsed: 1009 ms, timeout: 1000 ms, request: Request [id=2, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=getWorkOvertime, parameterTypes=[int], arguments=[1], attachments={path=com.alkaid.dtmp.attendance.api.WorkOvertimeService, interface=com.alkaid.dtmp.attendance.api.WorkOvertimeService, version=1.0.0}]], channel: /192.168.127.1:58826 -> /192.168.127.1:20882",
+  "path": "/work/overtime/get"
+}

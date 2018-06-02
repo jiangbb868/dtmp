@@ -2,17 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954e64c-0547-4823-a91a-0fab4f0e99e0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/DtmpAttendanceServiceApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/src/main/java/com/alkaid/dtmp/attendance/common/serial/AttendanceOptimizerImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T014146.200.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T014813.404.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T014845.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T074007.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T093231.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T103336.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-12T103456.200.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-13T115948.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-13T120223.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-13T123132.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-13T123134.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-18T103346.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-18T103431.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-18T105601.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-19T053526.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-05-19T075448.500.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/target/dtmp-attendance-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/target/dtmp-attendance-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/target/dtmp-attendance-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/target/dtmp-attendance-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.java" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/classes/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.class" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/classes/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/dtmp-attendance-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/dtmp-attendance-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/classes/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.class" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/classes/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/dtmp-attendance-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/dtmp-attendance-service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-attendance-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-redis-boot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/lib/dtmp-redis-boot-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/constants/DtmpConstants.java" afterPath="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/constants/DtmpConstants.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/classes/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.class" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/classes/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/classes/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.class" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/classes/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/dtmp-attendance-web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/dtmp-attendance-web-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-attendance-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/lib/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java" afterPath="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/target/classes/com/alkaid/dtmp/common/pojo/DtmpResult.class" afterPath="$PROJECT_DIR$/dtmp-common/target/classes/com/alkaid/dtmp/common/pojo/DtmpResult.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/target/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-common/target/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/dtmp-redis-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/dtmp-redis-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/dtmp-redis-boot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/dtmp-redis-boot-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/dtmp-redis-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/dtmp-redis-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/dtmp-redis-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/dtmp-redis-service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/dtmp-sso-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/dtmp-sso-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/dtmp-sso-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/dtmp-sso-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/classes/com/alkaid/dtmp/sso/dao/model/User.class" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/classes/com/alkaid/dtmp/sso/dao/model/User.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/dtmp-sso-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/dtmp-sso-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/dtmp-sso-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/dtmp-sso-service-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-redis-boot-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-redis-boot-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/lib/dtmp-sso-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/classes/com/alkaid/dtmp/sso/web/controller/SsoController.class" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/classes/com/alkaid/dtmp/sso/web/controller/SsoController.class" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/dtmp-sso-web-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/dtmp-sso-web-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-api-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-api-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-common-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/lib/dtmp-sso-dao-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +112,7 @@
     <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/target/" />
     <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/target/" />
     <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/target/" />
+    <ignored path="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,77 +134,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="99" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DtmpAttendanceServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/DtmpAttendanceServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DtmpAttendanceWebApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkOvertimeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="247">
+              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
+      <file leaf-file-name="WorkOvertimeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="261">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml">
+      <file leaf-file-name="WorkOvertimeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="63" lean-forward="false" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+            <state relative-caret-position="228">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -134,18 +169,63 @@
       <file leaf-file-name="SsoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="176">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/UserExample.java">
+      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="134">
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkOvertimeServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DtmpAttendanceServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/DtmpAttendanceServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DtmpSsoWebApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -154,12 +234,9 @@
       <file leaf-file-name="DtmpSsoServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +255,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring.hateoas.version</find>
       <find>spring.data.gemfire.version</find>
       <find>social</find>
       <find>hazelcast.version</find>
@@ -203,11 +279,12 @@
       <find>springboot.version</find>
       <find>-redis</find>
       <find>max-active</find>
-      <find>sso</find>
       <find>-overwrite</find>
       <find>mybatis-generator-core-1.3.6.jar</find>
       <find>mybatis-generator-core</find>
       <find>java</find>
+      <find>sso</find>
+      <find>java.sql.date</find>
     </findStrings>
     <replaceStrings>
       <replace>dtmp</replace>
@@ -232,18 +309,12 @@
       </map>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response25.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/test/java/DtmpSsoServiceTester.java" />
-        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/util/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/dtmp-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/JedisClient.java" />
-        <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/src/main/java/com/alkaid/dtmp/redis/api/JedisClient.java" />
-        <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/impl/JedisClientCluster.java" />
-        <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/src/main/java/com/alkaid/dtmp/redis/common/serial/ServiceOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/DtmpRedisServiceApplication.java" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/util/CacheUtils.java" />
         <option value="$PROJECT_DIR$/dtmp-redis/dtmp-redis-service/src/main/java/com/alkaid/dtmp/redis/service/configure/RedisAutoConfiguration.java" />
@@ -263,10 +334,8 @@
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java" />
-        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
         <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml" />
@@ -278,14 +347,25 @@
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/AttendanceService.java" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java" />
         <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/constants/DtmpConstants.java" />
-        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/DtmpAttendanceServiceApplication.java" />
-        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml" />
-        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/src/main/java/com/alkaid/attendance/common/serial/AttendanceOptimizerImpl.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml" />
         <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.java" />
+        <option value="$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/src/main/java/com/alkaid/dtmp/attendance/common/serial/AttendanceOptimizerImpl.java" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java" />
+        <option value="$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java" />
       </list>
     </option>
   </component>
@@ -439,7 +519,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -462,14 +541,20 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -477,7 +562,7 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -486,32 +571,11 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
@@ -579,15 +643,6 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
-              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -623,6 +678,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
@@ -678,6 +764,50 @@
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-attendance-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -724,6 +854,46 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -759,6 +929,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
@@ -824,6 +1005,37 @@
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
               <item name="dtmp-sso-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -874,14 +1086,24 @@
             <path>
               <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dtmp" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dtmp-sso-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dtmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dtmp" type="462c0819:PsiDirectoryNode" />
               <item name="project-datamodel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -903,13 +1125,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alkaid.dtmp.attendance.common.serial" />
       <recent name="com.alkaid.dtmp.redis.boot.client" />
       <recent name="com.alkaid.dtmp.redis.boot.config" />
       <recent name="com.alkaid.dtmp.redis.api" />
       <recent name="com.alkaid.dtmp.common.util" />
-      <recent name="com.alkaid.dtmp.sso.common.serial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-web\src\main\resources" />
+      <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-service\src\main\resources" />
       <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-attendance\dtmp-attendance-dao\src\main\resources" />
       <recent name="F:\workspace\Alkaid\2018proj\dtmp\dtmp-sso\dtmp-sso-service\src\main\resources" />
     </key>
@@ -917,6 +1141,34 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9003" />
+          <option name="urlPath" value="/work/overtime/delete" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="workOvertimeId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:9001" />
@@ -942,6 +1194,142 @@
               <KeyValuePair>
                 <option name="key" value="password" />
                 <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9001" />
+          <option name="urlPath" value="/sso/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="jiangb" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="123456" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9002" />
+          <option name="urlPath" value="/work/overtime/delete" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="workOvertimeId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9002" />
+          <option name="urlPath" value="/work/overtime/delete" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="workOvertimeId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9002" />
+          <option name="urlPath" value="/work/overtime/get" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="workOvertimeId" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9002" />
+          <option name="urlPath" value="/work/overtime/get" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
               </KeyValuePair>
             </list>
           </option>
@@ -1256,35 +1644,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DtmpSsoWebApplication">
+  <component name="RunManager" selected="Application.DtmpAttendanceWebApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="DtmpSsoServiceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DtmpSsoServiceTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dtmp-sso-service" />
-      <envs />
-    </configuration>
-    <configuration name="RedisUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DtmpAttendanceWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.alkaid.dtmp.common.util.*" />
+          <option name="PATTERN" value="com.alkaid.dtmp.attendance.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.alkaid.dtmp.common.util.RedisUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.dtmp.attendance.web.DtmpAttendanceWebApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1293,7 +1667,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dtmp-common" />
+      <module name="dtmp-attendance-web" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1336,6 +1710,17 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="DtmpAttendanceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaid.dtmp.attendance.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alkaid.dtmp.attendance.service.DtmpAttendanceServiceApplication" />
+      <module name="dtmp-attendance-service" />
+      <envs />
     </configuration>
     <configuration name="DtmpRedisServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1401,17 +1786,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoServiceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoWebApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DtmpSsoServiceTester" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RedisUtil" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.DtmpRedisServiceApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.DtmpRedisServiceApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.DtmpAttendanceServiceApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DtmpAttendanceWebApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoWebApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoServiceApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.DtmpRedisServiceApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RedisUtil" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DtmpSsoServiceTester" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DtmpAttendanceWebApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoWebApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.DtmpSsoServiceApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.DtmpAttendanceServiceApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.DtmpRedisServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1459,12 +1844,13 @@
       <workItem from="1527679496149" duration="769000" />
       <workItem from="1527842848153" duration="2023000" />
       <workItem from="1527865187632" duration="3478000" />
-      <workItem from="1527901557969" duration="4743000" />
+      <workItem from="1527901557969" duration="14545000" />
+      <workItem from="1527925345855" duration="10820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174419000" />
+    <option name="totallyTimeSpent" value="195041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1480,36 +1866,36 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5960912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13141994" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48859936" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104984894" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25830814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5423453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387622" sideWeight="0.49697885" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5960912" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21172638" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2960725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49022803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387622" sideWeight="0.49697885" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42345276" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1569,7 +1955,7 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1597,24 +1983,246 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar!/org/springframework/transaction/interceptor/DelegatingTransactionAttribute.class">
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="157" column="26" lean-forward="true" selection-start-line="157" selection-start-column="26" selection-end-line="157" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/protocol/InvokerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/ExceptionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/monitor/support/MonitorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/TimeoutFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/filter/TraceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/ContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/GenericFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/ClassLoaderFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/filter/EchoFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/protocol/ProtocolFilterWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/rpc/protocol/dubbo/DubboProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/remoting/exchange/support/header/HeaderExchangeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/remoting/transport/DecodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/common/json/JSONNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/common/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/src/main/java/com/alkaid/dtmp/sso/api/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="266">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/mapper/WorkOvertimeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <marker date="1527866686385" expanded="true" signature="4481:4619" ph="select from tbl_work_overtime" />
+            <marker date="1527866686385" expanded="true" signature="4836:4928" ph="delete from tbl_work_overtime... " />
+            <marker date="1527866686385" expanded="true" signature="5181:5210" ph="delete from tbl_work_overtime... " />
+            <marker date="1527866686385" expanded="true" signature="5539:5842" ph="insert into tbl_work_overtime... " />
+            <marker date="1527866686385" expanded="true" signature="7425:7463" ph="select count... tbl_work_overtime" />
+            <marker date="1527866686385" expanded="true" signature="8763:9105" ph="update tbl_work_overtime... " />
+            <marker date="1527866686385" expanded="true" signature="9465:10026" ph="update tbl_work_overtime... " />
+            <marker date="1527866686385" expanded="true" signature="10275:10578" ph="update tbl_work_overtime... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1622,364 +2230,190 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/filter/CustomFilter.java" />
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-common/dtmp-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/dtmp-attendance-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/dtmp-attendance-service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/dtmp-attendance-dao.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-boot/dtmp-redis-boot.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-api/dtmp-redis-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-redis/dtmp-redis-common/dtmp-redis-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/dtmp-sso-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/dtmp-sso-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/dtmp-attendance-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/dtmp-attendance-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-datamodel/dtmp.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/AttendanceService.java" />
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-api/src/main/java/com/alkaid/dtmp/sso/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="67" />
+          <caret line="89" column="11" lean-forward="false" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertimeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/mapper/WorkOvertimeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        <state relative-caret-position="-1501">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/constants/DtmpConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-common/src/main/java/com/alkaid/dtmp/common/pojo/DtmpResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/mapper/WorkOvertimeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="74" lean-forward="false" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-dao/src/main/java/com/alkaid/dtmp/sso/dao/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-dao/src/main/java/com/alkaid/dtmp/attendance/dao/model/WorkOvertime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-common/src/main/java/com/alkaid/dtmp/sso/common/serial/SsoOptimizerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-common/src/main/java/com/alkaid/dtmp/attendance/common/serial/AttendanceOptimizerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#488#495#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.8.4/dubbo-2.8.4-sources.jar!/com/alibaba/dubbo/remoting/transport/dispatcher/ChannelEventRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="57" column="27" lean-forward="false" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/DtmpAttendanceServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#913#914#0" expanded="true" />
             <element signature="e#996#997#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/DtmpSsoWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/src/main/java/com/alkaid/dtmp/sso/service/DtmpSsoServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-api/src/main/java/com/alkaid/dtmp/attendance/api/WorkOvertimeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="63" lean-forward="false" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        <state relative-caret-position="228">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.6.RELEASE/spring-aop-4.3.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="134">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/src/main/java/com/alkaid/dtmp/attendance/service/impl/WorkOvertimeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/DtmpAttendanceWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="99" selection-end-column="12" />
+        <state relative-caret-position="247">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dtmp-sso/dtmp-sso-web/src/main/java/com/alkaid/dtmp/sso/web/controller/SsoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dtmp-attendance/dtmp-attendance-web/src/main/java/com/alkaid/dtmp/attendance/web/controller/WorkOvertimeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding />
         </state>
       </provider>
