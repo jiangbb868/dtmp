@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!-- classPathEntry:数据库的JDBC驱动的jar包地址 -->
-    <classPathEntry location="G:\java lib\lib\java\mysql\mysql-connector-java-5.0.4-bin.jar" />
+    <classPathEntry location="G:\java-lib\lib\java\mysql\mysql-connector-java-5.0.4-bin.jar" />
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <commentGenerator>
             <!-- 抑制警告 -->

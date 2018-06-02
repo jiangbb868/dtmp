@@ -4,4 +4,5 @@ public class DtmpConstants {
     // Dubbox版本
     public static final String DTMP_SSO_VERSION = "1.0.0";
     public static final String DTMP_REDIS_VERSION = "1.0.0";
+    public static final String DTMP_ATTENDANCE_WORKOVERTIME_VERSION = "1.0.0";
 }

@@ -30,7 +30,7 @@
       <module name="dtmp-attendance-common" target="1.5" />
       <module name="dtmp-attendance-dao" target="1.8" />
       <module name="dtmp-attendance-service" target="1.8" />
-      <module name="dtmp-attendance-web" target="1.5" />
+      <module name="dtmp-attendance-web" target="1.8" />
       <module name="dtmp-common" target="1.8" />
       <module name="dtmp-redis" target="1.8" />
       <module name="dtmp-redis-api" target="1.8" />
