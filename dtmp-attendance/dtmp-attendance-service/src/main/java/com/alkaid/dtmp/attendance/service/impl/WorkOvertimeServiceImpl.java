@@ -39,13 +39,14 @@ public class WorkOvertimeServiceImpl extends BaseServiceImpl<WorkOvertimeMapper,
 
     @Override
     public List<WorkOvertime> getWorkOvertime(Date date, int userId) {
-        if (date == null) {
-            return null;
-            //return new DtmpResult(400, "error", "数据为空");
-        }
         WorkOvertimeExample workOvertimeExample = new WorkOvertimeExample();
         WorkOvertimeExample.Criteria criteria = workOvertimeExample.createCriteria();
-        criteria.andDateEqualTo(date).andUserIdEqualTo(userId);
+        if (date != null) {
+            criteria.andDateEqualTo(date);
+        }
+        if (userId != -1) {
+            criteria.andUserIdEqualTo(userId);
+        }
         List<WorkOvertime> list = workOvertimeMapper.selectByExample(workOvertimeExample);
         return list;
     }

@@ -23,7 +23,10 @@ public class DtmpAttendanceWebApplication {
         return new WebMvcConfigurerAdapter() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/work/overtime/getList").allowedOrigins("http://localhost:9000");
                 registry.addMapping("/work/overtime/get").allowedOrigins("http://localhost:9000");
+                registry.addMapping("/work/overtime/delete").allowedOrigins("http://localhost:9000");
+                registry.addMapping("/work/overtime/add").allowedOrigins("http://localhost:9000");
             }
         };
     }

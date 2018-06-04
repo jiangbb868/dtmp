@@ -1,0 +1,50 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list />
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://localhost:9003" />
+  <option name="urlPath" value="/work/overtime/add" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="userId" />
+        <option name="value" value="1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="startTime" />
+        <option name="value" value="2018-10-10 10:00:00" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="stopTime" />
+        <option name="value" value="2018-10-10 15:00:00" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="reason" />
+        <option name="value" value="开发测试" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="date" />
+        <option name="value" value="2018-10-10 00:00:00" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

@@ -1,3 +1,175 @@
+GET http://localhost:9003/work/overtime/getList
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-04T031230.500.json
+
+###
+
+GET http://localhost:9003/work/overtime/getList?userId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-04T031224.500.json
+
+###
+
+GET http://localhost:9003/work/overtime/getList?userId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-04T030605.200.json
+
+###
+
+GET http://localhost:9003/work/overtime/getList?userId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-04T025718.200.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T095435.200.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T095429.200.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T095421.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T094932.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T094925.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T094920.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T094816.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10 00:00:00
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091830.400.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试&date=2018-10-10
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091803.400.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091630.400.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091622.400.json
+
+###
+
+POST http://localhost:9003/work/overtime/add?userId=1&startTime=2018-10-10 10:00:00&stopTime=2018-10-10 15:00:00&reason=开发测试
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091618.400.json
+
+###
+
+GET http://localhost:9003/work/overtime/get?workOvertimeId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091432.200.json
+
+###
+
+POST http://localhost:9003/work/overtime/delete?workOvertimeId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091418.200.json
+
+###
+
+POST http://localhost:9003/work/overtime/delete?workOvertimeId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T091229.500.json
+
+###
+
+POST http://localhost:9003/work/overtime/delete?workOvertimeId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-03T125730.200.json
+
+###
+
 POST http://localhost:9003/work/overtime/delete?workOvertimeId=1
 Accept: */*
 Cache-Control: no-cache
@@ -211,182 +383,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-05-20T020225.500.json
-
-###
-
-GET http://localhost:9001/sso/login
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015946.500.json
-
-###
-
-GET http://localhost:9001/sso/login
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015901.500.json
-
-###
-
-GET http://localhost:9001/sso/login
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015812.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb11&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015747.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb11&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015744.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb11&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015703.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb11&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015652.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123455
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015639.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123455
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015635.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T015558.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T120008.200.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T114405.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T114402.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T114227.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103620.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103619.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103616.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103412.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103305.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T103159.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-20T102225.500.json
-
-###
-
-GET http://localhost:9001/sso/login?username=jiangb&password=123456
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-05-19T105350.500.json
 
 ###
 

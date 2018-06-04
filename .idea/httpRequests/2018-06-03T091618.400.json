@@ -1,0 +1,60 @@
+{
+  "timestamp": 1528031778151,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.validation.BindException",
+  "errors": [
+    {
+      "codes": [
+        "typeMismatch.workOvertime.startTime",
+        "typeMismatch.startTime",
+        "typeMismatch.java.util.Date",
+        "typeMismatch"
+      ],
+      "arguments": [
+        {
+          "codes": [
+            "workOvertime.startTime",
+            "startTime"
+          ],
+          "arguments": null,
+          "defaultMessage": "startTime",
+          "code": "startTime"
+        }
+      ],
+      "defaultMessage": "Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'startTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2018-10-10 10:00:00'; nested exception is java.lang.IllegalArgumentException",
+      "objectName": "workOvertime",
+      "field": "startTime",
+      "rejectedValue": "2018-10-10 10:00:00",
+      "bindingFailure": true,
+      "code": "typeMismatch"
+    },
+    {
+      "codes": [
+        "typeMismatch.workOvertime.stopTime",
+        "typeMismatch.stopTime",
+        "typeMismatch.java.util.Date",
+        "typeMismatch"
+      ],
+      "arguments": [
+        {
+          "codes": [
+            "workOvertime.stopTime",
+            "stopTime"
+          ],
+          "arguments": null,
+          "defaultMessage": "stopTime",
+          "code": "stopTime"
+        }
+      ],
+      "defaultMessage": "Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'stopTime'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.util.Date] for value '2018-10-10 15:00:00'; nested exception is java.lang.IllegalArgumentException",
+      "objectName": "workOvertime",
+      "field": "stopTime",
+      "rejectedValue": "2018-10-10 15:00:00",
+      "bindingFailure": true,
+      "code": "typeMismatch"
+    }
+  ],
+  "message": "Validation failed for object='workOvertime'. Error count: 2",
+  "path": "/work/overtime/add"
+}
